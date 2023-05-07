@@ -1,0 +1,27 @@
+{
+  "name": "prf_beadando",
+  "version": "1.0.0",
+  "description": "A 3. gyakorlathoz tartozó kommentek és megjegyzések a #3 előtaggal vannak megjelölve. Ehhez az anyagrészhez új fájlok nem készültek, kizárólag a meglevőeket, az app.js-t, a userRoute.js és a userSchema.js-t bővítettük ki a mentett jelszó titkosítására és a PassportJS-el való bejelentkezéssel kapcsolatos elemekkel.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "prf",
+    "gyakorlat",
+    "oktatas"
+  ],
+  "author": "Szabó Zoltán",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.9.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
