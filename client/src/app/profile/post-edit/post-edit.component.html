@@ -1,0 +1,15 @@
+<form [formGroup]="updatePost" (ngSubmit)="updateMyPost()">
+    <div id="createPost">
+      <mat-form-field>
+          <mat-label for="title">cím: </mat-label>
+          <input matInput type="text" formControlName="title">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label for="img_url">Leírás: </mat-label>
+        <input matInput type="text" formControlName="des">
+      </mat-form-field>
+      <span class="buttons">
+          <button mat-raised-button color="primary" type="submit" onclick="updatePost()">Frissítés</button>
+      </span>
+    </div>
+</form>

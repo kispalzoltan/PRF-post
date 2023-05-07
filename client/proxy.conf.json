@@ -1,0 +1,18 @@
+
+    {
+        "/server": {
+            "target": "http://localhost:3000/",
+            "secure": true,
+            "changeOrigin": true,
+            "pathRewrite": {
+                "^/server": ""
+            }
+        }
+    ,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization"
+      }
+    }
+  

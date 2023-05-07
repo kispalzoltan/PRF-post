@@ -1,0 +1,23 @@
+<mat-toolbar >
+  <span>Posztok</span>
+  <span class="spacer"></span>
+  <button mat-button [routerLink]="['/posts']">
+    Posztok
+</button>
+  <button mat-button [routerLink]="['/profile']">
+      Profil
+  </button>
+  <button mat-button [routerLink]="['/admin']">
+      Admin
+  </button>
+  <button mat-button (click)="logout()">
+     Kijelentkezés
+  </button>
+  <button mat-button  [routerLink]="['/login']">
+    Belépés
+ </button>
+ <button mat-button  [routerLink]="['/registration']">
+  Regisztráció
+</button>
+</mat-toolbar>
+<router-outlet></router-outlet>
